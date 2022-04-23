@@ -1,0 +1,231 @@
+﻿/*DEVELOPER: Winona Patrick, IS117-004, Spring 2022*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+
+.section-title {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+
+.nav-item {
+    margin: 0 20px;
+}
+
+#main {
+    background: url("images/plane.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-main {
+    margin-top: 20px;
+}
+
+.header-info {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    color: #5a34fc;
+}
+
+.btn-outline-light {
+    margin-left: 20px;
+}
+
+.btn-space {
+    margin-top: 20px;
+}
+
+
+#news {
+    border-radius: 10px;
+    background-color: #5a34fc;
+    margin: 0px 80px 80px 80px;
+    padding: 90px 0px 0px 0px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+    .carousel-item h3 {
+        font-size: 2.5rem;
+    }
+
+ 
+#options {
+    margin-top: 20px;
+    padding: 100px 0;
+}
+
+.options-title {
+    margin-bottom: 100px;
+}
+
+.card {
+    box-shadow: 0px 3px 63px -12px rgba(0, 0, 0, 0.75);
+    border-color: #5a34fc;
+    padding: 6% 6% 6% 6%;
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 6% 10% 0% 10%;
+   
+}
+
+.options-text {
+    color: #5a34fc;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 5% 0%;
+}
+
+.btn-block {
+    font-size: 1.5rem;
+}
+
+.cta-text {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #fff;
+}
+ 
+#footer {
+    height: 100px;
+    
+}
+
+ 
+@media only screen and (max-width: 768px) {
+
+    .card {
+        margin: 20px 0;
+    }
+
+    .header-info {
+        font-size: 2rem;
+
+    }
+
+    .btn-outline-light {
+        margin-left: 0px;
+    }
+
+
+}
+
+
+body {
+    font-family: 'Muli', sans-serif;
+    height: 100% !important;
+    background-color: #fff !important;
+    padding: 0 !important;
+    margin: 0 !important
+}
+
+.container-fluid {
+    margin: 20px 20px 20px 20px;
+    color: #000 !important
+}
+
+.card {
+    color: #757575 !important;
+    background-color: #fff !important;
+    align-items: center !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right calc(110px + (150 - 110) * ((100vw - 360px) / (1600 - 360))) bottom !important
+}
+
+h2 {
+    font-size: calc(25px + (45 - 25) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+h5 {
+    font-size: calc(20px + (28 - 20) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.fa {
+    cursor: pointer;
+    font-size: 21px;
+    margin: 5px 10px 5px 10px !important
+}
+
+button {
+    font-size: calc(12px + (13 - 12) * ((100vw - 360px) / (1600 - 320))) !important;
+    padding-left: calc(20px + (28 - 20) * ((100vw - 360px) / (1600 - 360))) !important;
+    padding-right: calc(20px + (28 - 20) * ((100vw - 360px) / (1600 - 360))) !important;
+    padding-top: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important;
+    padding-bottom: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+    button:focus {
+        -moz-box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        outline-width: 0
+    }
+
+li {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+input {
+    border: 2px solid #5a34fc !important;
+    width: 40px;
+}
+
+.input-group-lg > .custom-select,
+.input-group-lg > .form-control:not(textarea) {
+    height: calc(40px + (48 - 40) * ((100vw - 360px) / (1600 - 360))) !important;
+        width: 200px;
+}
+
+input::-webkit-input-placeholder {
+    padding-left: 5px !important;
+    transform: translate3d(0, -4px, 0)
+}
+
+input::placeholder {
+    vertical-align: middle !important;
+    font-size: calc(12px + (14 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+    .dropdown-submenu > .dropdown-menu {
+        top: 0;
+    
+        left: -10rem;  
+        margin-top: -6px;
+    }
+
+ 
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
