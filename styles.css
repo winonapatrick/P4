@@ -1,10 +1,12 @@
-/*DEVELOPER: Winona Patrick, IS117-004, Spring 2022*/
+﻿/*DEVELOPER: Winona Patrick, IS117-004, Spring 2022*/
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     background:#f1f1f1;
 }
-
+* {
+    box-sizing: border-box;
+}
 
 .section-title {
     font-size: 3rem;
@@ -27,6 +29,18 @@ body {
     background-size: cover;
     height: 100vh;
 }
+#east {
+    background: url("images/east.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+#hotel {
+    background: url("images/hotel.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
 .header-main {
     margin-top: 20px;
 }
@@ -252,8 +266,8 @@ input::placeholder {
 }
  
 .column {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
+    margin: 0 auto; 
+    float: none;  
     width: 75%;
 }
 
@@ -275,4 +289,50 @@ input::placeholder {
     width: 100%;
     padding: 20px;
 }
+.bostonimg {
+    background: url("images/boston.jpg");
+    width: 100%;
+    padding: 20px;
+}
+.marylandimg {
+    background: url("images/maryland.jpg");
+    width: 100%;
+    padding: 20px;
+}
+.dcimg {
+    background: url("images/maryland.jpg");
+    width: 100%;
+    padding: 20px;
+}
 
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+.form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+}
