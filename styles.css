@@ -21,6 +21,11 @@ body {
     height: 100vh;
 }
 
+#asia {
+    background: url("images/asia.jpg");
+    background-size: cover;
+    height: 100vh;
+}
 .header-main {
     margin-top: 20px;
 }
@@ -200,10 +205,12 @@ input::placeholder {
 
 .navbar-nav li:hover > ul.dropdown-menu {
     display: block;
+ 
 }
 
 .dropdown-submenu {
     position: relative;
+
 }
 
     .dropdown-submenu > .dropdown-menu {
@@ -218,3 +225,61 @@ input::placeholder {
     text-decoration: underline;
     transform: rotate(-90deg);
 }
+
+
+
+
+
+
+
+
+
+
+
+<style >
+* {
+    box-sizing: border-box;
+}
+
+.body2 {
+    font-family: Arial;
+    padding: 90px;
+    background: #f1f1f1;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    width: 75%;
+}
+
+
+
+/* Fake image */
+.japanimg {
+    background: url("images/japan.jpg");
+    width: 100%;
+    padding: 20px;
+}
+
+.indiaimg {
+    background: url("images/mumbai.jpg");
+    width: 100%;
+    padding: 20px;
+}
+
+.chinaimg {
+    background: url("images/china.jpg");
+    width: 100%;
+    padding: 20px;
+}
+/* Add a card effect for articles */
+.card2 {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+
