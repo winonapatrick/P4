@@ -1,7 +1,8 @@
-﻿/*DEVELOPER: Winona Patrick, IS117-004, Spring 2022*/
+/*DEVELOPER: Winona Patrick, IS117-004, Spring 2022*/
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
+    background:#f1f1f1;
 }
 
 
@@ -64,24 +65,41 @@ body {
  
 #options {
     margin-top: 20px;
-    padding: 100px 0;
+    padding: 100px;
+
 }
 
 .options-title {
     margin-bottom: 100px;
 }
 
+.card1 {
+    box-shadow: 0px 3px 63px -12px rgba(0, 0, 0, 0.75);
+    border-color: #5a34fc;
+    padding: 18px 18px 18px 18px;
+    border-radius: 10px;
+    background: #f1f1f1
+}
+.card2 {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
 .card {
     box-shadow: 0px 3px 63px -12px rgba(0, 0, 0, 0.75);
     border-color: #5a34fc;
-    padding: 6% 6% 6% 6%;
+  
     border-radius: 10px;
+    background: #f1f1f1
 }
 
-.card-body {
-    padding: 6% 10% 0% 10%;
-   
+
+.card-body1 {
+    padding: 20px 20px 20px 20px;
 }
+
+
 
 .options-text {
     color: #5a34fc;
@@ -99,10 +117,10 @@ body {
     font-size: 3rem;
     color: #fff;
 }
- 
+
 #footer {
     height: 100px;
-    
+    background: #f1f1f1;
 }
 
  
@@ -134,25 +152,17 @@ body {
 }
 
 .container-fluid {
-    margin: 20px 20px 20px 20px;
-    color: #000 !important
+    width: 50%;
 }
 
-.card {
-    color: #757575 !important;
-    background-color: #fff !important;
-    align-items: center !important;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right calc(110px + (150 - 110) * ((100vw - 360px) / (1600 - 360))) bottom !important
-}
+
 
 h2 {
-    font-size: calc(25px + (45 - 25) * ((100vw - 360px) / (1600 - 360))) !important
+    font-size: 35px !important
 }
 
 h5 {
-    font-size: calc(20px + (28 - 20) * ((100vw - 360px) / (1600 - 360))) !important
+    font-size: 20px !important
 }
 
 .fa {
@@ -231,12 +241,6 @@ input::placeholder {
 
 
 
-
-
-
-
-
-<style >
 * {
     box-sizing: border-box;
 }
@@ -246,17 +250,14 @@ input::placeholder {
     padding: 90px;
     background: #f1f1f1;
 }
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {
+ 
+.column {
     margin: 0 auto; /* Added */
     float: none; /* Added */
     width: 75%;
 }
 
-
-
-/* Fake image */
+ 
 .japanimg {
     background: url("images/japan.jpg");
     width: 100%;
@@ -274,12 +275,4 @@ input::placeholder {
     width: 100%;
     padding: 20px;
 }
-/* Add a card effect for articles */
-.card2 {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-/* Clear floats after the columns */
 
